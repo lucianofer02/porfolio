@@ -25,4 +25,15 @@ export const es = {
       tools: "Herramientas",
     }
   },
+  experience: {
+  title: "Experiencia",
+  jobs: [
+    {
+      company: "Winpax",
+      role: "Soporte técnico y administración de sistemas",
+      period: "Junio 2024 — Presente",
+      description: "Soporte del sistema hotelero, instalación y configuración de servidores. Trabajo con Oracle Forms y PL/SQL.",
+    }
+  ]
+},
 }

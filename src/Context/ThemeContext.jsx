@@ -4,7 +4,7 @@ import { translations } from '../i18n'
 const AppContext = createContext()
 
 export function AppProvider({ children }) {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
   const [lang, setLang] = useState('es')
 
   const toggleTheme = () => setTheme(prev => prev === 'light' ? 'dark' : 'light')
